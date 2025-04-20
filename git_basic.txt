@@ -34,9 +34,10 @@ git stauts
 로컬에서 만들고 커밋한 저장소(repository)의 정보를 개인 원격(remote) 저장소에 올려야 한다.
 연결이 선행되어야 한다.
 
+연결하는 코드는 깃허브에서 리포지토리를 비우고 만들면 맨 아래에 있다.
 
+git remote add [원격저장소별칭] [저장소링크.git]
+git push origin main
+origin이라는 저장소에 main 브랜치 정보를 업데이트-하겠다라는 명령어
 
-
-
-
-
+연결된 게 하나라면 git push만 입력해도 된다.
