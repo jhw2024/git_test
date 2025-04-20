@@ -3,7 +3,14 @@
 `git `으로 시작한다.
 
 저장소 만들기
-git init 
+git init
+
+깃 저장소 주인 설정
+git config --local user.name "유저이름"
+git config --global user.email "유저이메일"
+--local은 현재 저장소에만 이 설정을 적용
+--global은 이 PC의 모든 저장소에 이 설정을 기본으로 적용
+ 
 ★저장소 상태(status) 확인
 git status
 -> 변경사항이 있다.
@@ -22,4 +29,14 @@ git commit -m "해당 버전에 대한 정보를 적은 텍스트"
 
 -> 커밋이 완료되었는지 확인
 git stauts
+
+# 2단계
+로컬에서 만들고 커밋한 저장소(repository)의 정보를 개인 원격(remote) 저장소에 올려야 한다.
+연결이 선행되어야 한다.
+
+
+
+
+
+
 
