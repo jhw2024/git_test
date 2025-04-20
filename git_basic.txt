@@ -3,7 +3,7 @@
 `git `으로 시작한다.
 
 저장소 만들기
-git init
+git init 
 ★저장소 상태(status) 확인
 git status
 -> 변경사항이 있다.
